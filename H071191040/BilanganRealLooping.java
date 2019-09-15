@@ -8,25 +8,29 @@ class BilanganRealLooping
     for(int i = 0 ; i < 5 ; i++)
     {
       int n = key.nextInt();
-      if(i % 2 == 0 && i > 0)
+      if(n % 2 == 0 && n > 0)
       {
         even++;
         pos++;
       }
-      else if(i % 2 == 0 && i < 0)
+      else if(n % 2 == 0 && n < 0)
       {
         neg++;
         even++;
       }
-      else if(i % 2 != 0 && i > 0)
+      else if(n % 2 != 0 && n > 0)
       {
         odd++;
         pos++;
+      }
+      else if(n % 2 != 0 && n < 0)
+      {
+        odd++;
+        neg++;
       }
       else
       {
-        odd++;
-        neg++;
+        even++;
       }
     }
     System.out.printf("%d bilangan genap%n",even);

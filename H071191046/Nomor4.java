@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Nomorr4 {
+public class Nomor4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int genap = 0;

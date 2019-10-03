@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Looping01",
+            "request": "launch",
+            "mainClass": "Looping01",
+            "projectName": "Tugas-Kelas-B_79c9cb86"
+        }
+    ]
+}

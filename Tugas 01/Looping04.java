@@ -6,11 +6,12 @@ class Looping04 {
         int awal = obj.nextInt();
         int batas = obj.nextInt();
         int sum = 0;
+
         for (int k = awal; k < batas; k++) {
             if (k % 2 == 1) {
-                sum += k;
+                sum +=k;
             }
         }
-        System.out.println("Jumlah Bilangan Ganjil  :" + sum);
+        System.out.println("jumlah semua bilangan ganjil : " + sum);
     }
 }
